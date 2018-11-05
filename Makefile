@@ -10,6 +10,7 @@ build: antora-ui/build/ui-bundle.zip
 .PHONY: .build
 .build:
 	@mkdir -p docs/_images; rm -r docs/_images
+	@touch docs/.nojekyll
 	docker-compose -p antora-in-action-plantuml-server -f antora-plantuml/server.yml up -d
 	PLANTUML_SERVER_PORT=`docker-compose -p antora-in-action-plantuml-server -f antora-plantuml/server.yml port plantuml-server 8080 | cut -f2 -d':'` ; \
 		docker run \
