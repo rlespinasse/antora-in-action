@@ -1,0 +1,15 @@
+= Customize the Site UI
+:page-layout: slide
+
+Some documentations sites use a custom UI bundle
+
+* https://docs.fedoraproject.org (https://pagure.io/fedora-docs/fedora-docs-ui[UI bundle])
+* https://docs.couchbase.com (https://github.com/couchbase/docs-ui[UI bundle])
+
+Customize UI by forking https://gitlab.com/antora/antora-ui-default[antora-ui-default] and make changes on
+
+* **Handlebars** templates
+* **CSS** stylesheets
+
+gotoslide::asciidoctor-plantuml[keyCode="ArrowLeft"]
+gotoslide::search[keyCode="ArrowRight"]

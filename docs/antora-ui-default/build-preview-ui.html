@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a UI Project for Local Preview :: Antora in Action // Docs</title>
+    <link rel="canonical" href="https://rlespinasse.github.io/antora-in-action/antora-ui-default/build-preview-ui.html">
+    <meta name="generator" content="Antora 1.1.1">
+    <link rel="stylesheet" href="../ui-bundle/css/site.css">
+    <link rel="stylesheet" href="../ui-bundle/css/site-extra.css">
+    <link rel="stylesheet" href="../ui-bundle/css/vendor/docsearch.min.css">
+    <!-- fetched from https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css -->
+  </head>
+  <body class="article">
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        Antora in Action
+        <span class="separator">//</span>
+        <a href="https://rlespinasse.github.io/antora-in-action">Docs</a>
+      </div>
+      <div class="navbar-item">
+        <input id="search-input" type="text" placeholder="Search docs">
+      </div>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <div class="navbar-link">Site Tooling</div>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://antora.org/">Antora</a>
+            <a class="navbar-item" href="https://asciidoctor.org/">Asciidoctor</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <div class="navbar-link">Community</div>
+          <div class="navbar-dropdown is-right">
+            <a class="navbar-item" href="https://lemag.sfeir.com">Le mag (Sfeir)</a>
+            <a class="navbar-item" href="https://lemag.sfeir.com/hubert-sablonniere-ne-sous-estimez-pas-importance-documentation/">Interview about Documentation</a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="https://weare.sfeir.com/">Vous souhaitez nous rejoindre?</a>
+          </div>
+        </div>
+        <a class="navbar-item" href="https://twitter.com/rlespinasse">
+          <span class="icon">
+            <svg aria-hidden="true" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path fill="#57aaee" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="main-wrapper">
+<div class="navigation-container" data-component="antora-ui-default" data-version="master">
+  <aside class="navigation">
+    <div class="panels">
+<div class="navigation-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="index.html">Antora Default UI</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="prerequisites.html">UI Development Prerequisites</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="set-up-project.html">Set up a UI Project</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="build-preview-ui.html">Build and Preview the UI</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="development-workflow.html">UI Development Workflow</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="templates.html">Work with the Handlebars Templates</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="stylesheets.html">Work with the CSS Stylesheets</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-toggle"></button>
+    <a class="nav-link" href="style-guide.html">UI Element Styles</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="inline-text-styles.html">Inline Text</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="admonition-styles.html">Admonitions</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="list-styles.html">Lists</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="sidebar-styles.html">Sidebars</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="ui-macro-styles.html">UI Macros</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="navigation-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Antora Default UI</span>
+    <span class="version">master</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <span class="title">Antora Default UI</span>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">master</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">API a</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../api-a/v2.0-SNAPSHOT/index.html">v2.0-SNAPSHOT</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">API b</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../api-b/latest/index.html">latest</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">API c</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../api-c/v1.1-SNAPSHOT/index.html">v1.1-SNAPSHOT</a>
+        </li>
+        <li class="version">
+          <a href="../api-c/v1.0/index.html">v1.0</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">Build Tools</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../buildtools/v1.1-SNAPSHOT/index.html">v1.1-SNAPSHOT</a>
+        </li>
+        <li class="version">
+          <a href="../buildtools/v1.0/index.html">v1.0</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">Component A</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../component-a/1.5.6/inline-text-formatting.html">1.5.6</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">Component B</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../component-b/2.0/index.html">2.0</a>
+        </li>
+        <li class="version">
+          <a href="../component-b/1.0/index.html">1.0</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">Content</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../content/v1.0.0/antora-in-action.html">v1.0.0</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">Guidelines</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../guidelines/current/index.html">current</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+  <main class="main">
+<div class="toolbar" role="navigation">
+  <button class="navigation-toggle"></button>
+  <a href="../content/v1.0.0/antora-in-action.html" class="home-link"></a>
+<nav class="crumbs" aria-label="breadcrumbs">
+  <ul>
+    <li class="crumb"><a href="index.html">Antora Default UI</a></li>
+    <li class="crumb"><a href="build-preview-ui.html">Build and Preview the UI</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="file:///antora/antora-ui/docs/modules/ROOT/pages/build-preview-ui.adoc">Edit this Page</a></div>
+</div>
+<article class="doc">
+<h1>Build a UI Project for Local Preview</h1>
+<div class="sect1">
+<h2 id="build-preview-site"><a class="anchor" href="#build-preview-site"></a>Build Preview Site</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Once you&#8217;ve modified the site UI, the first thing you&#8217;ll want to do is check out how it looks.
+That&#8217;s what the files in the <em class="path">preview-site-src/</em> folder are for.
+This folder contains HTML file fragments that provide a representative sample of content from the site.
+The preview saves you from having to generate the whole site just to test the UI.
+These files should give you an idea of how the UI will look when applied to the actual site.</p>
+</div>
+<div class="paragraph">
+<p>The pages in the preview site are assembled using the Handlebars templates and link to the pre-compiled asset files (emulating the behavior of the site generator).
+Thus, to look at then, you need to run them through the UI build.</p>
+</div>
+<div class="paragraph">
+<p>There are two preview modes available.
+You can run the build once and examine the result or you can run the build continuously so you can see changes as you make them.
+The next two sections explain how to use these modes.</p>
+</div>
+<div class="sect2">
+<h3 id="build-once"><a class="anchor" href="#build-once"></a>Build Once</h3>
+<div class="paragraph">
+<p>To build the UI once for preview, then stop, execute the <code>build-preview</code> task using the following command:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ gulp build:preview</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This task pre-compiles the UI files into the <em class="path">public</em> directory.
+To view the preview pages, navigate to the HTML pages in the <em class="path">public</em> directory using your browser (e.g., <em class="path">public/index.html</em>).</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="build-continuously"><a class="anchor" href="#build-continuously"></a>Build Continuously</h3>
+<div class="paragraph">
+<p>To avoid the need to run the <code>build-preview</code> task over and over, you can use the <code>preview</code> command instead to have it run continuously.
+This task also launches a local HTTP server so updates get synchronized with the browser (i.e., &#8220;live reload&#8221;).</p>
+</div>
+<div class="paragraph">
+<p>To launch the preview server, execute the following command:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ gulp preview</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You&#8217;ll see two URLs listed in the output of this command:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[BS] Access URLs:
+ ----------------------------------
+    Local: http://localhost:5252
+ External: http://192.168.1.7:5252
+ ----------------------------------
+[BS] Serving files from: build
+[BS] Watching files...</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Navigate to the first one to see the preview site.
+While this command is running, any changes you make to the source files will be instantly reflected in the browser.
+This works by monitoring the project for changes, running the <code>build</code> task if a change is detected, and sending the updates to the browser.</p>
+</div>
+<div class="paragraph">
+<p>Press <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>C</kbd></span> to stop the preview server and end the continuous build.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="package-for-previewing"><a class="anchor" href="#package-for-previewing"></a>Package for Previewing</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you need to package the UI in order to preview the UI on the real site in local development, run the following command:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ gulp pack</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>pack</code> command also invokes the <code>lint</code> command to check that the CSS and JavaScript follow the coding standards.</p>
+</div>
+<div class="paragraph">
+<p>The UI bundle will be available at <em class="path">build/ui-bundle.zip</em>.
+You can then point Antora at this bundle using the <code>--ui-bundle</code> command-line option.</p>
+</div>
+</div>
+</div>
+</article>
+  </main>
+</div>
+<footer class="footer">
+</footer>
+<script src="../ui-bundle/js/vendor/docsearch.min.js"></script>
+<!-- fetched from https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js -->
+<script>
+function focusSearchInput () { document.querySelector('#search-input').focus() }
+var search = docsearch({
+  appId: 'PPJVREESR4',
+  apiKey: 'ff8a92f5950a84f912d56d84fcd16e3e',
+  indexName: 'antora-in-action',
+  inputSelector: '#search-input',
+  autocompleteOptions: { hint: false, keyboardShortcuts: ['s'] },
+  algoliaOptions: { hitsPerPage: 10 }
+}).autocomplete
+search.on('autocomplete:closed', function () { search.autocomplete.setVal() })
+focusSearchInput()
+window.addEventListener('load', focusSearchInput)
+</script>
+<script src="../ui-bundle/js/site.js"></script>
+<script src="../ui-bundle/js/vendor/highlight.js"></script>
+<script>hljs.initHighlighting()</script>
+  </body>
+</html>

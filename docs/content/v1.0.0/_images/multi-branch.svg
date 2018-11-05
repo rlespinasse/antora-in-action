@@ -1,0 +1,121 @@
+<svg width="40mm" height="30mm" version="1.1" viewBox="0 0 40 30.000002" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<title>Select repository branches with Antora</title>
+<defs>
+<filter id="b" x="-.020571" y="-.0288" width="1.0411" height="1.0576" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.17197026"/>
+</filter>
+<filter id="a" x="-.010286" y="-.0144" width="1.0206" height="1.0288" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.085985134"/>
+</filter>
+</defs>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title>Select repository branches with Antora</dc:title>
+<dc:creator>
+<cc:Agent>
+<dc:title>Sarah White</dc:title>
+</cc:Agent>
+</dc:creator>
+<dc:publisher>
+<cc:Agent>
+<dc:title>OpenDevise Inc.</dc:title>
+</cc:Agent>
+</dc:publisher>
+<dc:subject>
+<rdf:Bag>
+<rdf:li>Antora</rdf:li>
+<rdf:li>documentation</rdf:li>
+<rdf:li>static site generator</rdf:li>
+</rdf:Bag>
+</dc:subject>
+<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+</cc:Work>
+<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+</cc:License>
+</rdf:RDF>
+</metadata>
+<rect transform="rotate(90 171.86 136.63)" x="40.201" y="268.91" width="20.063" height="14.331" rx="1.66" ry="1.66" fill="#3d3d3d" filter="url(#a)"/>
+<g transform="translate(0 -.53874)">
+<path class="st6" d="m1.1 21.289h25.05" fill="none" stroke="#808080" stroke-miterlimit="10" stroke-width=".38"/>
+<circle transform="scale(1,-1)" cx=".9" cy="-21.289" r=".8" fill="#808080"/>
+<path d="m11.456 24.243-2.5722-2.5722" fill="none" stroke="#ff6f00" stroke-linecap="round" stroke-linejoin="round" stroke-width=".38"/>
+<circle transform="scale(1,-1)" cx="11.192" cy="-23.935" r=".8" fill="#ff6f00"/>
+<circle transform="scale(1,-1)" cx="8.6042" cy="-21.289" r=".8" fill="#808080"/>
+<path d="m7.2225 24.243-2.5722-2.5722" fill="none" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".38"/>
+<circle transform="scale(1,-1)" cx="6.9583" cy="-23.935" r=".8" fill="#808080"/>
+<circle transform="scale(1,-1)" cx="4.3708" cy="-21.289" r=".8" fill="#808080"/>
+<path d="m15.16 24.243-2.5722-2.5722" fill="none" stroke="#ff6f00" stroke-linecap="round" stroke-linejoin="round" stroke-width=".38"/>
+<circle transform="scale(1,-1)" cx="14.896" cy="-23.935" r=".8" fill="#ff6f00"/>
+<circle transform="scale(1,-1)" cx="12.308" cy="-21.289" r=".8" fill="#808080"/>
+<path d="m22.568 24.243-2.5722-2.5722" fill="none" stroke="#ff6f00" stroke-linecap="round" stroke-linejoin="round" stroke-width=".38"/>
+<circle transform="scale(1,-1)" cx="22.304" cy="-23.935" r=".8" fill="#ff6f00"/>
+<circle transform="scale(1,-1)" cx="19.717" cy="-21.289" r=".8" fill="#808080"/>
+<path d="m19.922 24.243-2.5722-2.5722" fill="none" stroke="#ff6f00" stroke-linecap="round" stroke-linejoin="round" stroke-width=".38"/>
+<g>
+<circle transform="scale(1,-1)" cx="19.658" cy="-23.935" r=".8" fill="#ff6f00"/>
+<circle transform="scale(1,-1)" cx="17.071" cy="-21.289" r=".8" fill="#808080"/>
+<circle transform="scale(1,-1)" cx="23.55" cy="-21.289" r=".8" fill="#808080"/>
+</g>
+<path class="st6" d="m1.1 15.539h19.758" fill="none" stroke="#808080" stroke-miterlimit="10" stroke-width=".38"/>
+<circle cx=".9" cy="15.539" r=".8" fill="#808080"/>
+<circle cx="15.9" cy="15.539" r=".8" fill="#808080"/>
+<path d="m9.8933 12.584-2.5722 2.5722" fill="none" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".38"/>
+<circle cx="9.6292" cy="12.893" r=".8" fill="#808080"/>
+<circle cx="7.0417" cy="15.539" r=".8" fill="#808080"/>
+<path class="st6" d="m21.208 15.539h4.9417" fill="none" stroke="#ff6f00" stroke-miterlimit="10" stroke-width=".38"/>
+<circle cx="20.9" cy="15.539" r=".8" fill="#ff6f00"/>
+<circle cx="12.862" cy="15.539" r=".8" fill="#808080"/>
+<path d="m17.352 6.8343-2.5722 2.5722" fill="none" stroke="#ff6f00" stroke-linecap="round" stroke-linejoin="round" stroke-width=".38"/>
+<circle cx="17.088" cy="7.1426" r=".8" fill="#ff6f00"/>
+<path d="m20.752 6.8343-2.5722 2.5722" fill="none" stroke="#ff6f00" stroke-linecap="round" stroke-linejoin="round" stroke-width=".38"/>
+<circle cx="20.487" cy="7.1426" r=".8" fill="#ff6f00"/>
+<path class="st6" d="m1.1 9.7884h25.05" fill="none" stroke="#808080" stroke-miterlimit="10" stroke-width=".38"/>
+<g fill="#808080">
+<circle cx=".9" cy="9.7884" r=".8"/>
+<circle cx="22.187" cy="9.7884" r=".8"/>
+<circle cx="10.883" cy="9.7884" r=".8"/>
+</g>
+<path d="m6.1516 6.8343-2.5722 2.5722" fill="none" stroke="#ff6f00" stroke-linecap="round" stroke-linejoin="round" stroke-width=".38"/>
+<circle cx="5.8875" cy="7.1426" r=".8" fill="#ff6f00"/>
+<g fill="#808080">
+<circle cx="3.3" cy="9.7884" r=".8"/>
+<circle cx="17.9" cy="9.7884" r=".8"/>
+<circle cx="14.5" cy="9.7884" r=".8"/>
+</g>
+<path d="m8.7975 6.8343-2.5722 2.5722" fill="none" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".38"/>
+<circle cx="8.5333" cy="7.1426" r=".8" fill="#808080"/>
+<circle cx="5.9458" cy="9.7884" r=".8" fill="#808080"/>
+</g>
+<g>
+<rect transform="rotate(90)" x="4.9684" y="-39.587" width="20.063" height="14.331" rx="1.66" ry="1.66" fill="#505050"/>
+<rect transform="rotate(90 171.86 136.63)" x="40.201" y="268.91" width="20.063" height="14.331" rx="1.66" ry="1.66" fill="#484848" fill-opacity=".95294" filter="url(#b)"/>
+<rect transform="rotate(90)" x="5.8304" y="-38.803" width="18.339" height="12.762" rx=".42" ry=".42" fill="#3d3d3d"/>
+</g>
+<path transform="scale(.26458)" d="m101.59 33.057c-0.20939 0-0.37696 0.16967-0.37696 0.37891v57.914h1.377v-56.732c0-0.05216 0.0428-0.0957 0.0957-0.0957h13.377c0.0529 0 0.0957 0.04355 0.0957 0.0957v56.732h1.3789v-57.914c0-0.20939-0.16951-0.37891-0.3789-0.37891z" fill="#808080"/>
+<path transform="scale(.26458)" d="m102.69 34.521c-0.0529 0-0.0957 0.04355-0.0957 0.0957v56.732h13.568v-56.732c0-0.05216-0.0428-0.0957-0.0957-0.0957z" fill="#505050"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width=".24">
+<path d="m30.06 10.324h-2.2751" stroke="#d3d3d3"/>
+<path d="m30.06 10.853h-1.746" stroke="#ff6f00"/>
+<path d="m30.06 11.382h-1.746" stroke="#ff6f00"/>
+<path d="m30.06 12.97h-2.2751" stroke="#d3d3d3"/>
+<path d="m30.06 13.499h-1.746" stroke="#ff6f00"/>
+<path d="m30.06 14.557h-2.2751" stroke="#d3d3d3"/>
+<g stroke="#ff6f00">
+<path d="m30.06 15.086h-1.746"/>
+<path d="m30.06 15.615h-1.746"/>
+<path d="m30.06 11.911h-1.746"/>
+<path d="m30.06 16.145h-1.746"/>
+<path d="m30.06 16.674h-1.746"/>
+</g>
+<path d="m37.184 7.132h-9.525" stroke="#d3d3d3"/>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+= Endpoint 'A-2' of the 'endpoints' module
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings:
+:idprefix:
+:idseparator: -
+:linkattrs:
+
+include::partial$tip.adoc[]
+
+Content of this section

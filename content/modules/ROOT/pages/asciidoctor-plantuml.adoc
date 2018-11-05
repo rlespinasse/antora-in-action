@@ -1,0 +1,40 @@
+= Asciidoctor plantuml
+:page-layout: slide
+
+By using one kind of diagram with https://github.com/eshepelyuk/asciidoctor-plantuml.js[**asciidoctor-plantuml.js**]
+
+.playbook.yml
+[source,yaml]
+----
+asciidoc:
+  extensions:
+    - asciidoctor-plantuml
+  attributes:
+    plantuml-server-url: 'http://www.plantuml.com/plantuml'
+----
+
+[cols="1a,1a,1a,1a",grid=none,frame=none,stripes=none]
+.some_page.adoc and the corresponding image in html page
+|===
+
+|
+|[source,adoc]
+....
+[plantuml]
+----
+alice -> bob
+bob -> alice
+----
+....
+
+|[plantuml]
+----
+alice -> bob
+bob -> alice
+----
+|
+
+|===
+
+gotoslide::asciidoctor-diagram-tip[keyCode="ArrowLeft"]
+gotoslide::customize-ui[keyCode="ArrowRight"]

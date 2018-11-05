@@ -1,0 +1,9 @@
+= About Asciidoctor Diagram
+:page-layout: slide
+
+CAUTION: You can't ... for now (https://github.com/asciidoctor/asciidoctor-diagram/issues/183[asciidoctor/asciidoctor-diagram#183])
+
+image::sad.png["Sad",256,256,role="center"]
+
+gotoslide::demo-time[keyCode="ArrowLeft"]
+gotoslide::asciidoctor-diagram-tip[keyCode="ArrowRight"]

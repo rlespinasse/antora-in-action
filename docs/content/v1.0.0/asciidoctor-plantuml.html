@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asciidoctor plantuml :: Antora in Action // Docs</title>
+    <link rel="canonical" href="https://rlespinasse.github.io/antora-in-action/content/v1.0.0/asciidoctor-plantuml.html">
+    <meta name="generator" content="Antora 1.1.1">
+    <link rel="stylesheet" href="../../ui-bundle/css/site.css">
+    <link rel="stylesheet" href="../../ui-bundle/css/slide.css">
+    <link rel="stylesheet" href="../../ui-bundle/css/site-extra.css">
+    <link rel="stylesheet" href="../../ui-bundle/css/vendor/docsearch.min.css">
+    <!-- fetched from https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css -->
+  </head>
+  <body class="article">
+<div class="main-wrapper">
+  <main class="main slide">
+<article class="doc">
+<h1>Asciidoctor plantuml</h1>
+<div class="paragraph">
+<p>By using one kind of diagram with <a href="https://github.com/eshepelyuk/asciidoctor-plantuml.js"><strong>asciidoctor-plantuml.js</strong></a></p>
+</div>
+<div class="listingblock">
+<div class="title">playbook.yml</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-yaml hljs" data-lang="yaml">asciidoc:
+  extensions:
+    - asciidoctor-plantuml
+  attributes:
+    plantuml-server-url: 'http://www.plantuml.com/plantuml'</code></pre>
+</div>
+</div>
+<table class="tableblock frame-none grid-none spread">
+<caption class="title">Table 1. some_page.adoc and the corresponding image in html page</caption>
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div></div></td>
+<td class="tableblock halign-left valign-top"><div><div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-adoc hljs" data-lang="adoc">[plantuml]
+----
+alice -&gt; bob
+bob -&gt; alice
+----</code></pre>
+</div>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div><div class="imageblock plantuml">
+<div class="content">
+<img src="_images/BvD2LA4qi74kabfuQVjSLjw3Y9C0oeA7.png" alt="diagram">
+</div>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div></div></td>
+</tr>
+</tbody>
+</table>
+<script>
+document.addEventListener('keydown', (event) => {
+  const key = event.key;
+  if (key === 'ArrowLeft') {
+    document.location.href = 'asciidoctor-diagram-tip.html';
+    // event.preventDefault();
+  }
+});
+</script>
+<script>
+document.addEventListener('keydown', (event) => {
+  const key = event.key;
+  if (key === 'ArrowRight') {
+    document.location.href = 'customize-ui.html';
+    // event.preventDefault();
+  }
+});
+</script>
+</article>
+  </main>
+</div>
+  </body>
+</html>

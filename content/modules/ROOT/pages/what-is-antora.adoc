@@ -1,0 +1,9 @@
+= What is Antora
+:page-layout: slide
+
+A **multi-repository documentation site generator** for tech writers who love writing in AsciiDoc.
+
+image::multi-repo.svg["Multi repo",400,400,role="center"]
+
+gotoslide::antora-in-action[keyCode="ArrowLeft"]
+gotoslide::docs-as-code[keyCode="ArrowRight"]

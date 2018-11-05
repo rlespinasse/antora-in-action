@@ -1,0 +1,19 @@
+= Talk "Antora in Action"
+
+. Build it with `make build`
+. Run it with `make launch`
+
+== Some pointers
+
+* Slides content: `content` folder and `lib` folder,
+* Antora componements to play with: `projects` sub-folders,
+* Customize UI: `antora-ui`,
+* Generate PlantUML diagram: `antora-plantuml` folder and `build` task,
+* Search bar: `supplemental-ui` folder and `build`, and `scrap-documentation` tasks.
+
+== Dependencies
+
+* Docker
+* Node
+* Gulp
+* and of course Antora.

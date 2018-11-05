@@ -1,0 +1,69 @@
+site:
+  title: "Antora in Action // Docs"
+  start_page: content::antora-in-action
+  url: https://rlespinasse.github.io/antora-in-action
+content:
+  sources:
+
+  - url: .
+    branches: HEAD
+    start_path: /content
+
+  - url: https://gitlab.com/antora/demo/demo-component-a.git
+    branches: master
+  - url: https://gitlab.com/antora/demo/demo-component-b.git
+    branches: [v2.0, v1.0]
+    start_path: docs
+
+  - url: https://github.com/rlespinasse/api-b.git
+    branches: master
+    tags: v*
+    start_path: docs
+  - url: https://github.com/rlespinasse/api-c.git
+    branches: master
+    tags: v*
+    start_path: docs
+  - url: https://github.com/rlespinasse/buildtools.git
+    branches: master
+    tags: v*
+    start_path: docs
+
+  - url: .
+    branches: HEAD
+    start_path: /antora-ui/docs
+  - url: .
+    branches: HEAD
+    start_path: /projects/api-a/docs
+  - url: .
+    branches: HEAD
+    start_path: /projects/guidelines
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: '@'
+    idseparator: '-@'
+    tabs: tabs
+    toc: ~
+    xrefstyle: short
+    # plantuml attrs - local
+    plantuml-server-url: 'http://localhost:8080'
+    plantuml-fetch-diagram: true
+    imagesoutdir: ./docs
+    # plantuml attrs - remote
+    # plantuml-server-url: 'http://www.plantuml.com/plantuml'
+    # search algolia
+    deploy-site: https://rlespinasse.github.io/antora-in-action
+  extensions:
+  - ./lib/gotoslide.js
+  - asciidoctor-plantuml
+  
+ui:
+  bundle:
+    #url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    url: ./antora-ui/build/ui-bundle.zip
+    snapshot: true
+  output_dir: ui-bundle
+  supplemental_files: ./supplemental-ui
+  # default_layout: default
+output:
+  dir: ./docs

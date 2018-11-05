@@ -1,0 +1,10 @@
+= Playbook schema
+:page-layout: slide
+
+[source,yaml]
+----
+include::example$playbook.yml[]
+----
+
+gotoslide::xrefs[keyCode="ArrowLeft"]
+gotoslide::extensible[keyCode="ArrowRight"]

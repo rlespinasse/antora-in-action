@@ -1,0 +1,10 @@
+= Component structure
+:page-layout: slide
+
+Componements are made of **antora.yml** file and modules under **modules** folder.
+
+Modules are made of **nav.adoc** file as navigation tree and pages under **pages** folder 
+__(also you can have assets, examples, and partials files)__.
+
+gotoslide::site[keyCode="ArrowLeft"]
+gotoslide::xrefs[keyCode="ArrowRight"]

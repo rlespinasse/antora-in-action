@@ -1,0 +1,11 @@
+= About Asciidoctor Diagram
+:page-layout: slide
+
+CAUTION: You can't ... for now (https://github.com/asciidoctor/asciidoctor-diagram/issues/183[asciidoctor/asciidoctor-diagram#183])
+
+image::happy.png["Sad",256,256,role="center"]
+
+TIP: But you can a little bit, or you can hack it.
+
+gotoslide::asciidoctor-diagram[keyCode="ArrowLeft"]
+gotoslide::asciidoctor-plantuml[keyCode="ArrowRight"]

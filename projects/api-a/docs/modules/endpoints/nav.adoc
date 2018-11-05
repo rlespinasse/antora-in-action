@@ -1,0 +1,3 @@
+.xref:index.adoc[Endpoints]
+* xref:endpoint-a1.adoc[Endpoint A-1]
+* xref:endpoint-a2.adoc[Endpoint A-2]

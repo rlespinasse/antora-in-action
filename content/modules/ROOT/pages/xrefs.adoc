@@ -1,0 +1,16 @@
+= Cross references
+:page-layout: slide
+
+You can link between sections with an in-page cross reference.
+
+[source,adoc]
+----
+<<reference-a-section-in-the-same-page,Check it out>>
+----
+
+But you can also easily, link 2 pages, or 2 modules, 2 components.
+
+image::xref.svg["Cross references",role="center"]
+
+gotoslide::component[keyCode="ArrowLeft"]
+gotoslide::playbook[keyCode="ArrowRight"]

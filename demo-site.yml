@@ -1,0 +1,25 @@
+site:
+  title: "Antora in Action // Docs"
+  start_page: api-a::index
+  url: https://rlespinasse.github.io/antora-in-action
+content:
+  sources:
+  - url: .
+    branches: HEAD
+    start_path: /projects/api-a/docs
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: '@'
+    idseparator: '-@'
+    tabs: tabs
+    toc: ~
+    xrefstyle: short
+  
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  output_dir: ui-bundle
+output:
+  dir: ./demo-docs

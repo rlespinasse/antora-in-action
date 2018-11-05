@@ -1,0 +1,9 @@
+= Thank you
+:page-layout: slidetitle
+
+Go to http://docs.antora.org for more.
+
+[quote, 'https://twitter.com/rlespinasse[Romain Lespinasse]']
+Some questions, please ask me?
+
+gotoslide::search[keyCode="ArrowLeft"]

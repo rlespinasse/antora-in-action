@@ -1,0 +1,9 @@
+= Extensible
+:page-layout: slide
+
+* Extends **Block Macro** capabilities on an `Asciidoctor` page.
+* Extends **Pages** on the choosen **Site UI** bundle.
+* Create a new **Site UI** bundle.
+
+gotoslide::playbook[keyCode="ArrowLeft"]
+gotoslide::demo-time[keyCode="ArrowRight"]

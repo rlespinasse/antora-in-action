@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook schema :: Antora in Action // Docs</title>
+    <link rel="canonical" href="https://rlespinasse.github.io/antora-in-action/content/v1.0.0/playbook.html">
+    <meta name="generator" content="Antora 1.1.1">
+    <link rel="stylesheet" href="../../ui-bundle/css/site.css">
+    <link rel="stylesheet" href="../../ui-bundle/css/slide.css">
+    <link rel="stylesheet" href="../../ui-bundle/css/site-extra.css">
+    <link rel="stylesheet" href="../../ui-bundle/css/vendor/docsearch.min.css">
+    <!-- fetched from https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css -->
+  </head>
+  <body class="article">
+<div class="main-wrapper">
+  <main class="main slide">
+<article class="doc">
+<h1>Playbook schema</h1>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-yaml hljs" data-lang="yaml">site:
+  title: Demo Docs Site
+  url: https://demo.antora.org
+  start_page: component-b::index.adoc
+content:
+  sources:
+  - url: https://gitlab.com/antora/demo/demo-component-b.git
+    branches: [v1.0, v2.0]
+    tags: v3.*
+    start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  output_dir: ui-bundle
+output:
+  dir: ./public</code></pre>
+</div>
+</div>
+<script>
+document.addEventListener('keydown', (event) => {
+  const key = event.key;
+  if (key === 'ArrowLeft') {
+    document.location.href = 'xrefs.html';
+    // event.preventDefault();
+  }
+});
+</script>
+<script>
+document.addEventListener('keydown', (event) => {
+  const key = event.key;
+  if (key === 'ArrowRight') {
+    document.location.href = 'extensible.html';
+    // event.preventDefault();
+  }
+});
+</script>
+</article>
+  </main>
+</div>
+  </body>
+</html>

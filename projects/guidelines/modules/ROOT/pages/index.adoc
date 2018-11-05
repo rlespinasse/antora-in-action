@@ -1,0 +1,15 @@
+= Guidelines
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings:
+:idprefix:
+:idseparator: -
+:linkattrs:
+
+The aim of this project is to help you develop APIs
+
+* A long list of guidelines to develop awesome APIs.
+* And how to deploy it on GCP
+
+xref:content::demo-time.adoc[Go back to slides]

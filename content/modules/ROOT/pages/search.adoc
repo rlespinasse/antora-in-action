@@ -1,0 +1,18 @@
+= Want to be able to search
+:page-layout: slide
+
+https://docs.antora.org or https://docs.couchbase.com
+
+use https://algolia.com[Algolia] to do it.
+
+image::algolia-logo.png["Algolia",333,83,role="center"]
+
+[TIP]
+====
+{deploy-site}[You can too !]
+
+Checkout https://gitlab.com/antora/antora-ui-default/issues/44#note_68053321[Dan Allen for the tutorial] on this one.
+====
+
+gotoslide::customize-ui[keyCode="ArrowLeft"]
+gotoslide::thank-you[keyCode="ArrowRight"]

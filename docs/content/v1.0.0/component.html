@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component structure :: Antora in Action // Docs</title>
+    <link rel="canonical" href="https://rlespinasse.github.io/antora-in-action/content/v1.0.0/component.html">
+    <meta name="generator" content="Antora 1.1.1">
+    <link rel="stylesheet" href="../../ui-bundle/css/site.css">
+    <link rel="stylesheet" href="../../ui-bundle/css/slide.css">
+    <link rel="stylesheet" href="../../ui-bundle/css/site-extra.css">
+    <link rel="stylesheet" href="../../ui-bundle/css/vendor/docsearch.min.css">
+    <!-- fetched from https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css -->
+  </head>
+  <body class="article">
+<div class="main-wrapper">
+  <main class="main slide">
+<article class="doc">
+<h1>Component structure</h1>
+<div class="paragraph">
+<p>Componements are made of <strong>antora.yml</strong> file and modules under <strong>modules</strong> folder.</p>
+</div>
+<div class="paragraph">
+<p>Modules are made of <strong>nav.adoc</strong> file as navigation tree and pages under <strong>pages</strong> folder
+<em>(also you can have assets, examples, and partials files)</em>.</p>
+</div>
+<script>
+document.addEventListener('keydown', (event) => {
+  const key = event.key;
+  if (key === 'ArrowLeft') {
+    document.location.href = 'site.html';
+    // event.preventDefault();
+  }
+});
+</script>
+<script>
+document.addEventListener('keydown', (event) => {
+  const key = event.key;
+  if (key === 'ArrowRight') {
+    document.location.href = 'xrefs.html';
+    // event.preventDefault();
+  }
+});
+</script>
+</article>
+  </main>
+</div>
+  </body>
+</html>

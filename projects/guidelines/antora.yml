@@ -1,0 +1,5 @@
+name: guidelines
+title: Guidelines
+version: 'current'
+nav:
+- modules/ROOT/nav.adoc

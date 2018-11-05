@@ -1,0 +1,8 @@
+
+= Antora in Action
+:page-layout: slidetitle
+
+image::sfeir-share-lille.png["Axololt",400,400,role="center"]
+//image::sfeir-lunch.png["Axololt",400,400,role="center"]
+
+gotoslide::what-is-antora[keyCode="ArrowRight"]

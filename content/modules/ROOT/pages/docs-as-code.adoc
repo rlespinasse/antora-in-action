@@ -1,0 +1,10 @@
+= Documentation as Code
+:page-layout: slide
+
+. **Put** your documentation **beside** your code source.
+. **Compose** your documentation site **as you want**.
+
+image::multi-branch.svg["Multi branch",400,400,role="center"]
+
+gotoslide::what-is-antora[keyCode="ArrowLeft"]
+gotoslide::site[keyCode="ArrowRight"]

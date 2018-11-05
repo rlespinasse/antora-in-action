@@ -1,0 +1,15 @@
+= API 'a' documentation
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings:
+:idprefix:
+:idseparator: -
+:linkattrs:
+// URIs:
+:uri-changelog: https://github.com/rlespinasse/api-a/blob/master/CHANGELOG.adoc
+
+[caption="RELEASE STATUS"]
+TIP: See the {uri-changelog}[CHANGELOG^] for details.
+
+API 'a' is designed serve xref:endpoints:index.adoc[endpoints] to manage the 'a' capabilities.

@@ -1,0 +1,93 @@
+<svg width="40mm" height="30mm" version="1.1" viewBox="0 0 40 30.000002" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<title>Configure documentation sites with Antora's playbook</title>
+<defs>
+<filter id="c" x="-.010302" y="-.014368" width="1.0206" height="1.0287" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.43398437"/>
+</filter>
+<filter id="b" x="-.020604" y="-.028736" width="1.0412" height="1.0575" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.86796874"/>
+</filter>
+<filter id="a" x="-.08932" y="-.079255" width="1.1786" height="1.1585" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.076215257"/>
+</filter>
+</defs>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title>Configure documentation sites with Antora's playbook</dc:title>
+<dc:creator>
+<cc:Agent>
+<dc:title>Sarah White</dc:title>
+</cc:Agent>
+</dc:creator>
+<dc:publisher>
+<cc:Agent>
+<dc:title>OpenDevise Inc.</dc:title>
+</cc:Agent>
+</dc:publisher>
+<dc:subject>
+<rdf:Bag>
+<rdf:li>Antora</rdf:li>
+<rdf:li>documentation</rdf:li>
+<rdf:li>static site generator</rdf:li>
+<rdf:li>playbook</rdf:li>
+</rdf:Bag>
+</dc:subject>
+<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+</cc:Work>
+<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+</cc:License>
+</rdf:RDF>
+</metadata>
+<g transform="translate(0,-267)">
+<rect y="267" width="40" height="30" fill="none"/>
+<g>
+<path transform="matrix(.34198 0 0 .34198 2.3562 269.25)" d="m7.315 1.0416c-3.4758 0-6.2734 2.7996-6.2734 6.2754v59.943c0 3.4758 2.7976 6.2734 6.2734 6.2734h39.232c2.0764 0 3.9042-1.0038 5.0449-2.5488 1.1407 1.5451 2.9705 2.5488 5.0469 2.5488h39.23c3.4758 0 6.2734-2.7976 6.2734-6.2734v-59.943c0-3.4758-2.7976-6.2754-6.2734-6.2754h-39.23c-2.0764 0-3.9062 1.0038-5.0469 2.5488-1.1407-1.5451-2.9686-2.5488-5.0449-2.5488z" fill="#3d3d3d" filter="url(#c)"/>
+<rect transform="rotate(-90)" x="-294.4" y="2.7124" width="24.791" height="17.708" rx="1.66" ry="1.66" fill="#505050"/>
+<rect transform="rotate(-90)" x="-294.4" y="19.58" width="24.791" height="17.708" rx="1.66" ry="1.66" fill="#505050"/>
+</g>
+<path transform="matrix(.34198 0 0 .34198 -5.7537 262.34)" d="m31.029 21.24c-3.4758 0-6.2734 2.7996-6.2734 6.2754v59.943c0 3.4758 2.7976 6.2734 6.2734 6.2734h39.232c2.0764 0 3.9042-1.0038 5.0449-2.5488 1.1407 1.5451 2.9705 2.5488 5.0469 2.5488h39.23c3.4758 0 6.2734-2.7976 6.2734-6.2734v-59.943c0-3.4758-2.7976-6.2754-6.2734-6.2754h-39.23c-2.0764 0-3.9062 1.0038-5.0469 2.5488-1.1407-1.5451-2.9686-2.5488-5.0449-2.5488z" fill="#484848" fill-opacity=".95294" filter="url(#b)"/>
+<g transform="matrix(1.2925 0 0 1.2925 -5.7537 -82.768)" fill="#3d3d3d">
+<rect transform="rotate(-90)" x="-290.98" y="20.35" width="17.532" height="12.2" rx=".32494" ry=".32494"/>
+<rect transform="rotate(-90)" x="-290.98" y="7.3" width="17.532" height="12.2" rx=".32494" ry=".32494"/>
+</g>
+<g transform="matrix(1.2925 0 0 1.2925 -6.0116 -82.768)" fill="none" stroke="#d3d3d3" stroke-linecap="round" stroke-linejoin="round" stroke-width=".24">
+<path d="m14.552 275.77h-5.3923"/>
+<path d="m15.61 276.98h-5.392"/>
+<path d="m15.61 278.19h-5.392"/>
+<path d="m13.393 279.4h-3.175"/>
+<path d="m15.61 281.14h-6.4503"/>
+<path d="m14.451 282.34h-4.2333"/>
+<path d="m15.61 283.55h-5.392"/>
+<path d="m14.552 285.29h-5.3923"/>
+<path d="m15.61 286.5h-5.392"/>
+<path d="m15.61 287.71h-5.392"/>
+</g>
+<g fill="none" stroke="#ff6f00" stroke-linecap="round" stroke-width=".31021">
+<path d="m33.454 285.56v-12.563"/>
+<path d="m31.046 285.56v-12.563"/>
+<path d="m28.637 282.08v-9.0846"/>
+</g>
+<rect x="27.862" y="274.68" width="1.551" height="2.8513" rx=".24649" ry=".22656" fill="#ff6f00"/>
+<path d="m28.734 286.71c-0.92007 0-1.6692 0.75147-1.6692 1.6716 0 0.92007 0.74915 1.6692 1.6692 1.6692 0.92007 0 1.6715-0.74915 1.6715-1.6692 0-0.92008-0.75147-1.6716-1.6715-1.6716zm0 0.36863c0.72107 0 1.3029 0.58185 1.3029 1.3029 0 0.72108-0.58185 1.3006-1.3029 1.3006-0.72107 0-1.3006-0.57953-1.3006-1.3006 0-0.72107 0.57953-1.3029 1.3006-1.3029zm-3.543 1.3035v-0.48997l0.85441-0.24136 0.27109-0.64777-0.46924-0.75896 0.72809-0.73428 0.77208 0.46311 0.62948-0.2659 0.24652-0.86982 1.0001 4e-5 0.25885 0.86978 0.61183 0.2659 0.78972-0.46311 0.70344 0.73428-0.43842 0.75896 0.26584 0.64777 0.8637 0.24139v0.98136l-0.86985 0.25295-0.26586 0.62321 0.43233 0.79613-0.67885 0.69456-0.77208-0.43991-0.6603 0.26885-0.26501 0.85537h-0.95081l-0.28967-0.85537-0.61123-0.26885-0.76483 0.43991-0.69812-0.69456 0.41377-0.79613-0.2342-0.62321-0.87281-0.25295z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#ff6f00" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+<path d="m25.191 288.38v-0.48997l0.85441-0.24136 0.27109-0.64777-0.46924-0.75896 0.72809-0.73428 0.77208 0.46311 0.62948-0.2659 0.24652-0.86982 1.0001 4e-5 0.25885 0.86978 0.61183 0.2659 0.78972-0.46311 0.70344 0.73428-0.43842 0.75896 0.26584 0.64777 0.8637 0.24139v0.98136l-0.86985 0.25295-0.26586 0.62321 0.43233 0.79613-0.67885 0.69456-0.77208-0.43991-0.6603 0.26885-0.26501 0.85537h-0.95081l-0.28967-0.85537-0.61123-0.26885-0.76483 0.43991-0.69812-0.69456 0.41377-0.79613-0.2342-0.62321-0.87281-0.25295z" fill="none" stroke="#ff6f00" stroke-linecap="round" stroke-linejoin="round" stroke-width=".36822"/>
+<rect x="30.27" y="279.09" width="1.551" height="2.8513" rx=".24649" ry=".22656" fill="#ff6f00"/>
+<rect x="32.678" y="277.04" width="1.551" height="2.8513" rx=".24649" ry=".22656" fill="#ff6f00"/>
+<path transform="matrix(0 -4.8705 4.8447 0 -1316.8 565.5)" d="m58.208 277.16c-0.11457 0-1.203-1.8852-1.1457-1.9844 0.05728-0.0992 2.2341-0.0992 2.2914 0 0.05728 0.0992-1.0311 1.9844-1.1457 1.9844z" fill="#3d3d3d" fill-opacity=".87059" filter="url(#a)"/>
+<g>
+<path transform="matrix(0 -4.6738 4.649 0 -1262.8 554.05)" d="m58.208 277.16c-0.09165 0-1.1915-1.905-1.1457-1.9844 0.04583-0.0794 2.2455-0.0794 2.2914 0 0.04583 0.0794-1.054 1.9844-1.1457 1.9844z" fill="#1e88e5"/>
+<circle cx="23.5" cy="273.5" r=".5" fill="#d3d3d3"/>
+<circle cx="25" cy="273.5" r=".5" fill="#ff6f00"/>
+<circle cx="23.5" cy="275.1" r=".5" fill="#ff6f00"/>
+<circle cx="25" cy="275.1" r=".5" fill="#d3d3d3"/>
+</g>
+</g>
+</svg>

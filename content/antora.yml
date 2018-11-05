@@ -1,0 +1,6 @@
+name: content
+title: Content
+version: 'v1.0.0'
+start_page: ROOT:antora-in-action.adoc
+nav:
+- modules/ROOT/nav.adoc

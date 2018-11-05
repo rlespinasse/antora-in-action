@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap>
+<loc>https://rlespinasse.github.io/antora-in-action/sitemap-antora-ui-default.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://rlespinasse.github.io/antora-in-action/sitemap-api-a.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://rlespinasse.github.io/antora-in-action/sitemap-api-b.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://rlespinasse.github.io/antora-in-action/sitemap-api-c.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://rlespinasse.github.io/antora-in-action/sitemap-buildtools.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://rlespinasse.github.io/antora-in-action/sitemap-component-a.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://rlespinasse.github.io/antora-in-action/sitemap-component-b.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://rlespinasse.github.io/antora-in-action/sitemap-content.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://rlespinasse.github.io/antora-in-action/sitemap-guidelines.xml</loc>
+</sitemap>
+</sitemapindex>

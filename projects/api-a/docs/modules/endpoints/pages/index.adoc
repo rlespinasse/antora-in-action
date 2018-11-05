@@ -1,0 +1,10 @@
+= Endpoints
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings:
+:idprefix:
+:idseparator: -
+:linkattrs:
+
+To address 'a' capabilities, we create some endpoints

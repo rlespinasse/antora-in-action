@@ -1,0 +1,7 @@
+= Demo time
+:page-layout: slidetitle
+
+image::antora-demo.svg["Antora",400,400,role="center",link="../../guidelines/current/index.html"]
+
+gotoslide::extensible[keyCode="ArrowLeft"]
+gotoslide::asciidoctor-diagram[keyCode="ArrowRight"]

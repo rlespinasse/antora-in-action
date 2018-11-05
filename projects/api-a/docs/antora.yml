@@ -1,0 +1,7 @@
+name: api-a
+title: API a
+version: 'v2.0-SNAPSHOT'
+nav:
+- modules/ROOT/nav.adoc
+- modules/endpoints/nav.adoc
+- modules/ROOT/nav-end.adoc

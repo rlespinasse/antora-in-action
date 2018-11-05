@@ -1,0 +1,7 @@
+= Site
+:page-layout: slide
+
+image::site.png["Site",997,465,link="https://docs.antora.org"]
+
+gotoslide::docs-as-code[keyCode="ArrowLeft"]
+gotoslide::component[keyCode="ArrowRight"]
